@@ -54,4 +54,14 @@ Nuevamente obtenemos error 400, es decir, el servidor no fue capaz de procesar l
 _$ wc -c_
 
 
+¿Cuál esla diferencia entre los verbos GET y POST? ¿Qué otros tipos de peticiones existen?
+
+Utilice ahora el parámetro -v y con el parámetro -i:
+
+''$ curl -v www.httpbin.org''
+''$ curl -i www.httpbin.org''
+
+¿Cuáles son las diferencias con los diferentes parámetros?
+
+
  
