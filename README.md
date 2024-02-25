@@ -56,12 +56,22 @@ _$ wc -c_
 
 ¿Cuál esla diferencia entre los verbos GET y POST? ¿Qué otros tipos de peticiones existen?
 
+Get se encarga de obtener un recurso especifico, mientras que post se utiliza para enviar recursos a la URL.
+También encontramos los comandos HEAD, PUT y DELETE.
+
 Utilice ahora el parámetro -v y con el parámetro -i:
 
 ''$ curl -v www.httpbin.org''
+![image](https://github.com/oscar0617/Laboratorio-5-CVDS-JeissonCasallas-OscarLesmes/assets/111905740/87c4a5d3-a439-48a0-8cd2-3e6292bcd3e6)
+
 ''$ curl -i www.httpbin.org''
+![image](https://github.com/oscar0617/Laboratorio-5-CVDS-JeissonCasallas-OscarLesmes/assets/111905740/f40bd92b-33d3-4fbc-a0f3-2e55fe2731b4)
+
 
 ¿Cuáles son las diferencias con los diferentes parámetros?
+El comando -v nos muestra la peticion completa GET, mientras que -i muestra informacion del estado de la petición.
+
+**PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA USANDO EL PATRÓN MVC**
 
 
  
