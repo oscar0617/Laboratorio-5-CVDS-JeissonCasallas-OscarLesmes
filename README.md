@@ -73,8 +73,6 @@ El comando -v nos muestra la peticion completa GET, mientras que -i muestra info
 
 **PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA USANDO EL PATRÓN MVC**
 
-##Respuestas
-
 Después de terminar el aprendizaje analice: - 
 
 **¿Por qué MVC obtiene ese nombre?**  
@@ -106,7 +104,6 @@ La diferencia en la estructura de directorios entre este proyecto y los proyecto
 
 **PARTE III. - APLICACIÓN MVC PARA CONSUMO DE SERVICIO RESTful**
 
-## Respuestas
 
 **¿Qué es RESTful?**
 
@@ -118,15 +115,17 @@ En este caso al usar un framework para mejorar el aspecto visual, su hizo se har
 
 **PARTE IV. - APLICACIÓN MVC JUEGO**
 
-**Respuestas**
-
 Analice las siguientes situaciones: 
 
 - **¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?**
+
+Cada jugador tiene un juego totalmente independiente al otro, es decir, cada navegador tiene una instancia.
   
+![image](https://github.com/oscar0617/Laboratorio-5-CVDS-JeissonCasallas-OscarLesmes/assets/111905740/a8fdd3d6-4dc2-40b8-b2f3-d0c19b19db40)
 
 -**Si quisiera qué a cada jugador le aparecieran independientemente sus respectivos saldos.¿Qué habría que hacer?**
 
+Se deberia usar una base de datos que almacene esos valores para cada jugador.
 
 
   
