@@ -73,5 +73,60 @@ El comando -v nos muestra la peticion completa GET, mientras que -i muestra info
 
 **PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA USANDO EL PATRÓN MVC**
 
+##Respuestas
 
- 
+Después de terminar el aprendizaje analice: - 
+
+**¿Por qué MVC obtiene ese nombre?**  
+MVC, o tambien conocido como patrón Modelo-Vista-Controlador, generalmente usado en el desarrollo web esta compuesto por tres partes fundamentales: el Modelo, encargado de gestionar los datos y la lógica de la aplicación; la Vista, encargada de la presentación visual de la información al usuario y la interacción con la interfaz de usuario; y el Controlador, que funciona como intermediario entre el Modelo y la Vista, procesando las solicitudes del usuario y actualizando la Vista en base a los resultados obtenidos.
+
+**¿Cuáles son las ventajas de usar MVC?** 
+
+El patrón MVC tiene ventajas como: separar las responsabilidades en diferentes componentes, como el Modelo, la Vista y el Controlador, tambien simplifica el desarrollo, depuración y mantenimiento del código. Además, la modularidad facilita la reutilización de componentes en diferentes partes de la aplicación. La organización clara del código también simplifica la realización de cambios y actualizaciones sin afectar otras partes del sistema, mientras que la separación de las capas facilita la realización de pruebas unitarias en cada componente por separado. Por último, la capacidad de escalar cada componente individualmente permite gestionar de manera eficiente el crecimiento de la aplicación según sea necesario.
+
+**¿Qué diferencia tiene la estructura de directorios de este proyecto comparado con las de proyectos pasados (con solo maven y java EE)?**
+
+
+La diferencia en la estructura de directorios entre este proyecto y los proyectos anteriores como maven y java EE va principalmente en el enfoque basado en el patrón de arquitectura MVC (Modelo-Vista-Controlador). En el caso de los otros proyectos, la estructura tiene un modelo basado en capas (como la capa de presentación, la capa de negocio y la capa de acceso a datos), donde los componentes se organizan según su función y responsabilidad. El que un Proyecto MVC este organizado en Modelo,vista,controlador  conlleva una distribución diferente de los archivos y directorios para reflejar la separación de responsabilidades. Además, en un proyecto MVC es común encontrar directorios adicionales para otros componentes de la aplicación, como servicios, utilidades o recursos estáticos, lo que lo diferencia de las otras dos.
+
+**¿Qué anotaciones usaste y cuál es la diferencia entre ellas?**
+
+@Controller: Indica que una clase es un controlador de Spring MVC. Los métodos de esta clase pueden manejar peticiones HTTP.
+
+@Autowired: Se utiliza para inyectar dependencias automáticamente en los beans gestionados por Spring. Spring buscará un bean compatible y lo inyectará en el lugar apropiado.
+
+@RequestMapping: Se utiliza para asignar una URL específica o un patrón de URL a un método de controlador. Indica qué método de controlador debe manejar las peticiones HTTP que coincidan con la URL especificada.
+
+ @GetMapping: Se utiliza para asignar un método de controlador a las solicitudes HTTP GET. el método de controlador será invocado cuando se reciba una solicitud GET que coincida con la URL especificada en la anotación.
+
+@PostMapping: se utiliza para asignar un método de controlador a las solicitudes HTTP POST. el método de controlador será invocado cuando se reciba una solicitud POST que coincida con la URL especificada en la anotación.
+
+ @ModelAttribute:se utiliza para enlazar métodos o parámetros de métodos a atributos del modelo. Esto permite pasar datos entre el controlador y la vista de manera eficiente.
+
+
+**PARTE III. - APLICACIÓN MVC PARA CONSUMO DE SERVICIO RESTful**
+
+## Respuestas
+
+**¿Qué es RESTful?**
+
+RESTful se refiere a un estilo arquitectónico para el diseño de servicios web que sigue los principios de REST (Representational State Transfer). En un servicio web RESTful, los recursos son identificados por URLs únicas y las operaciones sobre estos recursos se realizan utilizando los métodos estándar del protocolo HTTP, lo que proporciona una comunicación uniforme y predecible entre clientes y servidores.
+
+**Si utilizo un framework como Boostrap CSS para qué el apartado gráfico se vea más profesional, ¿en qué capa se haría su uso?**
+
+En este caso al usar un framework para mejorar el aspecto visual, su hizo se haria en la capa de vista.
+
+**PARTE IV. - APLICACIÓN MVC JUEGO**
+
+**Respuestas**
+
+Analice las siguientes situaciones: 
+
+- **¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?**
+  
+
+-**Si quisiera qué a cada jugador le aparecieran independientemente sus respectivos saldos.¿Qué habría que hacer?**
+
+
+
+  
